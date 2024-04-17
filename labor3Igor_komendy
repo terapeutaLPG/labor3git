@@ -1,0 +1,140 @@
+#zadanie 1
+git commit
+git commit
+git commit
+#zadanie 2
+git checkout -b bugFix
+#zadanie 3
+git checkout -b bugFix
+git checkout bugFix
+git commit
+git checkout main
+git commit 
+git merge bugFix
+#zadanie 4
+git checkout -b bugFix
+git commit
+git checkout main
+git commit
+git checkout bugFix
+git rebase main
+#zadanie 5
+git checkout C2
+git checkout C4
+#zadanie 6
+git checkout bugFix
+git checkout bugFix^
+#zadanie 7
+git branch -f bugFix C0
+git branch -f main C6
+git checkout HEAD^
+#zadanie 8
+git branch -f local C1
+git checkout pushed
+git revert pushed
+#zadanie 9
+git cherry-pick C3 C4 C7
+zadanie 10
+git rebase -i HEAD~4
+#zadanie 11
+git rebase -i HEAD~4
+git checkout main
+git cherry-pick C4
+#zadanie 12
+git rebase -i HEAD~2
+git commit --amend
+git rebase -i HEAD~2
+git checkout main
+git merge caption
+#zadanie 13
+git checkout  C2
+git rebase -i HEAD~1
+git checkout C2
+git checkout C3
+git rebase -i HEAD~2
+git branch -f main HEAD
+#zadanine 14
+git checkout C1
+git tag v0
+git checkout C2
+git tag v1
+#zadanie 15
+git rebase main bugFix
+git rebase bugFix side
+git rebase side another
+git rebase another main
+#zadanie 16
+git branch bugWork main^^2^
+#zadanie 17
+git checkout one 
+git cherry-pick C4 C3 C2
+git checkout two
+git cherry-pick C5 C4 C3 C2
+git branch -f three C2
+# zdalny git
+# zad 1
+git clone
+#zad 2
+git commit
+git checkout o/main
+git commit
+#zad 3
+git fetch
+#zad 4
+git pull
+#zad 5
+git clone
+git fakeTeamwork 
+git commit
+git pull
+#zad 6
+git commit
+git commit
+git push
+#zad 7
+git clone
+git fakeTeamwork
+git commit
+git pull --rebase
+git push
+#zad 8
+git reset --hard o/main
+git checkout -b feature c2
+git push origin feature
+#zad 9
+git fetch
+git rebase o/main side1
+git rebase side1 side2
+git rebase side2 side3
+git rebase side3 main
+git push
+# zad 10
+git checkout main
+git pull
+git merge side1
+git merge side2
+git merge side3
+git push
+#zad 11
+git checkout -b side o/main
+git commit
+git pull --rebase
+git push
+#zad 12
+git push origin main
+git push origin foo
+#zad 13
+git push origin main^:foo
+git push origin foo:main
+#zad 14
+git fetch origin main~1:foo
+git fetch origin foo:main
+git checkout foo
+git merge main
+#zad 15
+git push origin :foo
+git fetch origin :bar
+#zad 16
+git pull origin bar:foo
+git pull origin main:side
+
